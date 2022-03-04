@@ -12,7 +12,7 @@ int main()
     int n2=str2.length();
     int j=0;
     for(int i=0;i<n1 && j<n2;i++){
-        if(str2[j]==str2[i])
+        if(str2[j]==str1[i])
             j++;
     }
     if(j==n2)
